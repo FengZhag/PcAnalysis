@@ -1,0 +1,28 @@
+terrain_analysis:
+  elevationResolution: 0.03
+  elevationExpandX: 3.0
+  elevationExpandY: 2.0
+  elevationExpandZMin: -1.0
+  elevationExpandZmax: 1.0
+
+  cutRobotCenterX: 0.0
+  cutRobotCenterY: 0.0
+  cutRobotCenterZ: 0.0
+  cutRobotExpandXMin: -0.7   
+  cutRobotExpandXMax: 0.6
+  cutRobotExpandY: 0.30 
+  cutRobotExpandZMin: -0.8
+  cutRobotExpandZMax: 0.2
+  cutRobotExpandZMiddle: -0.4
+  cutRobotGroundXYResolution: 0.1  
+  cutRobotGroundZResolution: 0.05
+  asGroundProportionThreshold: 0.05
+
+  occupancyGridResolution: 0.1
+  occupancyGridPositionX: 0.0
+  occupancyGridPositionY: 0.0
+  occupancyGridPosotionZ: -1.00
+  occupancyGridOrientationX: 0.0
+  occupancyGridOrientationY: 0.0
+  occupancyGridOrientationZ: 0.0
+  occupancyGridOrientationW: 1.0

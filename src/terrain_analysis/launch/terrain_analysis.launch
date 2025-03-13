@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="terrain_analysis" type="terrain_analysis_node" name="terrain_analysis" output="screen"/>
+    <rosparam command="load" file="$(find terrain_analysis)/config/params.yaml" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find terrain_analysis)/rviz/show.rviz"/>
+</launch>
