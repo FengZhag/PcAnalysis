@@ -1,2 +1,0 @@
-terrain_analysis
--DCATKIN_DEVEL_PREFIX=/home/zf/pc_analysis/devel -DCMAKE_INSTALL_PREFIX=/home/zf/pc_analysis/install -G Unix Makefiles
